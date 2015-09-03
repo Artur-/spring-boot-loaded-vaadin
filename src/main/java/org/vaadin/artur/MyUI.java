@@ -6,12 +6,11 @@ import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.Label;
-import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
 @Theme("valo")
 @SpringUI
-public class MyUI extends UI {
+public class MyUI extends AutoReloadUI {
 
     @Override
     protected void init(VaadinRequest vaadinRequest) {
